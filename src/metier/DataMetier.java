@@ -1,10 +1,10 @@
 package metier;
 
-import dao.DataDao;
+import dao.*;
 
 public class DataMetier {
 
-    private DataDao dao;
+    private IDao dao ;
 
     public double getInfo(){
         return dao.getData() * 10 ;

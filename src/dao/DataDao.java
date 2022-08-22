@@ -1,6 +1,6 @@
 package dao;
 
-public class DataDao {
+public class DataDao implements IDao{
     public double getData() {
         return 10 ;
     }
